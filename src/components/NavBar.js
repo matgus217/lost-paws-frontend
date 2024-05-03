@@ -38,6 +38,17 @@ const NavBar = () => {
                 >
                   <i className="fas fa-user-plus"></i>Create a login
                 </NavLink>
+
+                <NavLink
+            className={styles.NavLink}
+            activeClassName={styles.Active}
+            aria-label="Navigate to event create form"
+            to="/events/create"
+        >
+              <i className="fa-solid fa-bars"></i> Report a lost paw
+        </NavLink>
+
+               
               </Nav>
             </Navbar.Collapse>
           </Container>
