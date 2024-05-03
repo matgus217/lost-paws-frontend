@@ -6,6 +6,9 @@ import appStyles from "../../App.module.css";
 
 
 
+
+
+
 import {
   Form,
   Button,
@@ -130,8 +133,8 @@ const SignUpForm = () => {
       >
         
         <Image
-          className={`${appStyles.FillerImage}`}
-          src={"../images/cat.jpg"}
+         className={styles.NavLink}
+          src={""}
         />
           
         
