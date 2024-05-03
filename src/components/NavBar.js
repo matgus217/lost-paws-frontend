@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <Navbar className={styles.NavBar} expand="md" fixed="top">
       <Container>
-        <Navbar.Brand className={styles.NavBar}>
-          <img  src={logo} alt="logo" height="60" />
+        <Navbar.Brand>
+          <img  src={logo} alt="logo" height="70" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
