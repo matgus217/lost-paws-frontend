@@ -12,6 +12,7 @@ const NavBar = () => {
             <NavLink to="/">
               <Navbar.Brand>
                 <img src={logo} alt="logo" height="70" />
+                Lost Paws
               </Navbar.Brand>
             </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
