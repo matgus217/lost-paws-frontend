@@ -133,9 +133,10 @@ const SignUpForm = () => {
       >
         
         <Image
-         className={styles.NavLink}
-          src={""}
-        />
+                    alt="Placeholder image"
+                    className={`${appStyles.FillerImage}` }
+                    src={"https://res.cloudinary.com/matgus/image/upload/v1714825667/cat_ew6isv.jpg"}
+                />
           
         
         
