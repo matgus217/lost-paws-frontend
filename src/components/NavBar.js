@@ -1,3 +1,4 @@
+//React
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../assets/logo.jpg";
@@ -22,21 +23,21 @@ const NavBar = () => {
                   activeClassName={styles.Active}
                   to="/"
                 >
-                  <i className="fas fa-home"></i>Home
+                  <i className="fas fa-paw"></i>Home
                 </NavLink>
                 <NavLink
                   className={styles.NavLink}
                   activeClassName={styles.Active}
                   to="/signin"
                 >
-                  <i className="fas fa-sign-in-alt"></i>Log in
+                  <i className="fas fa-sign-in-alt"></i>Log In
                 </NavLink>
                 <NavLink
                   to="/signup"
                   className={styles.NavLink}
                   activeClassName={styles.Active}
                 >
-                  <i className="fas fa-user-plus"></i>Create a login
+                  <i className="fas fa-user-plus"></i>Create A Login
                 </NavLink>
 
                 <NavLink
@@ -45,7 +46,7 @@ const NavBar = () => {
             aria-label="Navigate to event create form"
             to="/events/create"
         >
-              <i className="fa-solid fa-bars"></i> Report a lost paw
+              <i className="fas fa-cat"></i> Report A Lost Paw
         </NavLink>
 
                
